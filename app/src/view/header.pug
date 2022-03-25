@@ -1,2 +1,29 @@
-
-    
+header.header 
+    img.header__img(src='./images/header-img.png', alt='')
+    .header__nav
+        .header__menu-button 
+            span.header__menu-line
+            span.header__menu-line
+            span.header__menu-line
+        a.header__nav-button(href='#') RESERVATION
+    aside.header__aside 
+        img.header__aside-img(src="./images/logo.png", alt="")
+        ul.header__aside-ul 
+        li: a(href="./menu.html").header__aside-li MENU
+        li: a(href="./about.html").header__aside-li ABOUT
+            - var list= ['RESERVATIONS','NEWS','EVENTS','CAREERS','CONTACT']
+            each item in list 
+                li: a(href='#').header__aside-li= item
+        .header__aside-internet 
+            a(href="#")
+                img.header__aside-icon(src="./images/facebook.svg", alt="") 
+            a(href="#")
+                img.header__aside-icon(src="./images/instagram.svg", alt="") 
+            a(href="#")
+                img.header__aside-icon(src="./images/telegram.svg", alt="") 
+        a(href="#") 
+            button.header__aside-button 
+                a(href="#") 
+                    span.header__aside-en EN 
+                a(href="#") 
+                    span.header__aside-ru /RU

@@ -1,0 +1,153 @@
+.main{
+    background: #E5E5E5;
+    &__about1{
+        max-width: 960px;
+        width: 100%;
+        padding: 50px 180px 44px 50px;
+    }
+    &__about{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1920px;
+        width: 100%;
+        justify-content: center;
+        &-img{
+            max-width: 960px;
+            width: 100%;
+        }
+        &-text{
+            font-size: 48px;
+            line-height: 55px;
+            font-family: 'PlayfairDisplay-Italic';
+            color: $black;
+            margin-bottom: 30px;
+        }
+        &-description{
+            font-size: 20px;
+            line-height: 45px;
+            color: $black;
+            font-family: 'PlayfairDisplay-Italic';
+            margin-bottom: 60px;
+        }
+        &-btn{
+            font-size: 18px;
+            line-height: 24px;
+            color: $black;
+            font-family: 'PlayfairDisplay-Italic';
+            border: 1px solid black;
+            padding: 13px 98px;
+            max-width: 300px;
+            width: 100%;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1920px;
+        width: 100%;
+        justify-content: center;
+        &Box{
+            position: relative;
+            &-img{
+                max-width: 640px;
+                width: 100%;
+            }
+            &-text{
+                margin: 50px 50px 0 50px;
+                max-width: 550px;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                font-size: 48px;
+                line-height: 50px;
+                color: $white;
+                font-family: 'PlayfairDisplay-Italic';
+            }
+            &-text1{
+                color: $black;
+                margin: 50px 50px 0 50px;
+                max-width: 550px;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                font-size: 48px;
+                line-height: 50px;
+                font-family: 'PlayfairDisplay-Italic';
+            }
+            &-link{
+                text-decoration: underline;
+            }
+        }
+    }
+    &__information{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &Date{
+            max-width: 960px;
+            width: 100%;
+            padding: 150px 85px 149px 85px;
+            background: $white;
+
+            &UpInputs{
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+            &UpInput{
+                width: 370px;
+                margin-bottom: 55px;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid grey;
+            }
+            &Down{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                &-description{
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: $black;
+                    font-family: 'PlayfairDisplay-Italic';
+                }
+                &-btn{
+                    font-size: 18px;
+                  line-height: 24px;
+                  color: $black;
+                   font-family: 'PlayfairDisplay-Italic';
+                   border: 1px solid black;
+                 padding: 13px 98px;
+                    max-width: 300px;
+                     width: 100%;
+                }
+            }
+        }
+        &R{
+            padding: 50px 180px 163px 50px;
+            max-width: 960px;
+            width: 100%;
+            
+            &-text{
+                font-size: 48px;
+                line-height: 55px;
+                color: $black;
+                font-family: 'PlayfairDisplay-Italic';
+            }
+            &-description{
+                font-family: 'PlayfairDisplay-Italic';
+                font-size: 20px;
+                line-height: 45px;
+                color: $black;
+                margin-bottom: 50px;
+            }
+            &-descriptionA{
+                font-family: 'PlayfairDisplay-Italic';
+                font-size: 20px;
+                line-height: 45px;
+                color: $black;
+            }
+        }
+    }
+}
+

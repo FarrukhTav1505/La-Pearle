@@ -1,0 +1,156 @@
+@media(max-width:800px){
+
+    .header{
+        &__nav-button{
+            width: 160px;
+            padding: 2px 0;
+        }
+    }
+    .main{
+        &__informationDateDown{
+            flex-wrap: wrap;
+            &-description{
+                margin-right: 50px;
+            }
+        }
+    }
+
+    .footer{
+        &__aboutL{
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &-logo{
+                margin-right: 45px;
+            }
+            &-internet{
+                margin-right: 45px;
+            }
+            &-contact{
+                margin-right: 45px;
+            }
+        }
+    }
+}
+@media(max-width:600px){
+    .main__contentBox-text{
+        font-size: 24px;
+        width: 300px;
+        line-height: 20px;
+    }
+    .main__contentBox-text1{
+        font-size: 24px;
+        width: 300px;
+        line-height: 20px;
+    }
+    .main__contentBox-img{
+        max-width: 340px;
+        width: 100%;
+    }
+}
+@media(max-width:535px){
+    .main__about-btn{
+        padding: 6px 15px;
+    }
+    .main__content{
+        justify-content: center;
+    }
+    .main__informationDateupInput{
+        width: 115px;
+    }
+    .header__aside-ul{
+        padding: 0;
+        margin-top: 0;
+    }
+    .header__aside-img{
+        display: none;
+    }
+    .header__aside-li{
+        margin-bottom: 5px;
+    }
+    .header__aside-button{
+        margin-top: 8px;
+    }
+    .header__aside{
+        padding: 10px 7px 40px 13px;
+        height: 200px;
+        &-li{
+            margin-bottom: 0px;
+        }
+    }
+    .main__informationDateUpInput{
+        margin-bottom: 19px;
+    }
+
+}
+@media(max-width:490px){
+    .main__about-description{
+        padding: 0 0 0 5px;
+    }
+    .main__content{
+        margin-top: 25px;
+    }
+    .main__about-img{
+        margin-top: 25px;
+    }
+    .main__about1{
+        padding: 0;
+    }
+    .main__about-text{
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .footer__aboutL-contact{
+        margin-top: auto;
+    }
+    .footer__aboutL{
+        flex-direction: column;
+        &-internet{
+           display: flex !important;
+            justify-content: center !important;
+            margin-top: 10px;
+            flex-direction: row;
+        }
+    }
+    .header__nav{
+        padding: 35px 15px 0 50px;
+    }
+    .main__informationDateDown-btn{
+        padding: 6px 49px;
+
+    }
+    .main__informationDate{
+        padding: 24px 84px 17px 46px;
+
+    }
+}
+@media(max-width:400px){
+    .main__informationR-text{
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .main__informationR-description{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .main__informationR-descriptionA{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .main__about-description{
+        line-height: unset;
+    }
+    .main__informationR{
+        padding: 18px 0 10px 5px;
+    }
+    .header__menu-line{
+        width: 32px;
+    }
+    .header__aside-img{
+        max-width: 100px;
+    }
+
+
+}
+@media(max-width:400px){
+
+}
