@@ -18,10 +18,8 @@
         }
         &-img.active{
             filter: blur(0px);
-
         }
-        &-text{
-            
+        &-text{           
             font-size: 48px;
             line-height: 50px;
             font-family: 'PlayfairDisplay-Italic';
@@ -30,12 +28,13 @@
             width: 100%;
             text-align: center;
             margin-top: 50px;
-            display: none;
+            opacity: 0;
             transition: 0.8s;
+            top: 0;
         }
         &-text.active{
             top: 0;
-            display: block;
+            opacity: 1;
         }
         &-btn{
             font-size: 18px;
@@ -44,29 +43,31 @@
             color: $white;
             padding: 13px 124px;
             position: absolute;
-            display: none;
+            opacity: 0;
             z-index: 1;
             border: 1px solid $white;
             right: 81px;  
             transition: 0.8s; 
+            top: 672px;
+            
             &.active{
                 top: 672px;
-                display: block;
+                opacity: 1;
 
             }
         }  
     }
-    
-    
 }
 
+.slider{
+    width: 960px;
+    height: 700px;
+}
+.slider-img{
+    max-width: 960px;
+    width: 100%;
+    height: 700px;
 
-.slider__slide{
-    background: green;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .slider__controls{
@@ -74,6 +75,75 @@
     justify-content: center;
     gap: 15px;
 }
+.slider1{
+    width: 960px;
+    height: 700px;
+}
+
+
+.slider__controls1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 button{
     padding: 10px;
+}
+
+.main{
+    &__menu{
+        background: $white;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__menu1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-R{
+            max-width: 960px;
+            width: 100%;
+            height: 700px;
+        }
+    }
+    &__section{
+        &-img{
+        width: 685px;
+        height: 515px;
+        }
+        &-title{
+        font-size: 48px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: $black;
+        font-family: 'PlayfairDisplay-Regular';
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        }
+        &-dec{
+        font-size: 20px;
+        line-height: 24px;
+        color: $black;
+        font-family: 'PlayfairDisplay-Regular';
+        margin-left: 35px;
+        margin-bottom: 10px;
+        }
+        &-text{
+        font-size: 16px;
+        line-height: 24px;
+        color: $black;
+        font-family: 'PlayfairDisplay-Regular';
+        margin-left: 35px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        }
+        &-all {
+            overflow: scroll;
+            height: 531px;
+            width: 761px;
+        }
+    }
 }

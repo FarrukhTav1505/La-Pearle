@@ -1,4 +1,5 @@
-const menuButton = document.querySelector('.header__menu-button'),
+try {
+    const menuButton = document.querySelector('.header__menu-button'),
     aside = document.querySelector('.header__aside'),    
     reservationButton = document.querySelector('.header__nav-button'),
     headerImg = document.querySelector('.header__img'),
@@ -18,3 +19,6 @@ headerImg.addEventListener('click', () => {
         z-index: 0;
     `
 })
+}catch(e) {
+    
+}

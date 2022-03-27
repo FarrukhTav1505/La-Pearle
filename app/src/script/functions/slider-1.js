@@ -1,4 +1,4 @@
-class Slider {
+class SliderNext {
     constructor(obj) {
         this.slider = document.querySelector(obj.slider)
         this.sliderLine = this.slider.querySelector(obj.sliderLine)
@@ -97,6 +97,5 @@ class Slider {
 
 
 
-export default Slider
-
+export default SliderNext;
 
